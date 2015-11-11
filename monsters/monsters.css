@@ -1,0 +1,58 @@
+@import url(webfonts/dndfonts.css);
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+	background: #fff9ef;
+	font-family: Bookmania;
+}
+
+#header {
+	height: 70px;
+	float: top;
+	background: #aa2b03;
+}
+
+#footer {
+	height: 70px;
+	background: #aa2b03;
+}
+
+#footertext {
+	line-height: 70px;
+	color: white;
+}
+
+#footertext a{
+	color: white;
+	text-decoration: none;
+}
+
+#logo {
+	padding: 3px;
+}
+
+#content {
+	margin: 20px;
+}
+
+h1, h2 {
+	font-family: 'Mrs Eaves SC', sans;
+}
+
+#navigationbar {
+	font-family: 'Mrs Eaves SC', sans;
+	font-size: 1.2em;
+}
+
+#list {
+    -webkit-columns: auto 4; /* Chrome, Safari, Opera */
+    -moz-columns: auto 4; /* Firefox */
+    columns: auto 4;
+}
+
+li {
+	padding-left: 10px;
+}

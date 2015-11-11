@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'Mrs Eaves SC';
+	src:url('mrseavessmallcaps_regular-webfont.woff2') format('woff2'),
+		 url('mrseavessmallcaps_regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Scala Sans';
+	src: url('scalasans-caps-webfont.woff2') format('woff2'),
+		 url('scalasans-caps-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Scala Sans';
+	src: url('scala-sans-regular-webfont.woff2') format('woff2'),
+		 url('scala-sans-regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Bookmania';
+	src: url('bookmania_bold_italic-webfont.woff2') format('woff2'),
+		 url('bookmania_bold_italic-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: italic;
+
+}
+
+@font-face {
+	font-family: 'Bookmania';
+	src: url('bookmania_bold-webfont.woff2') format('woff2'),
+		 url('bookmania_bold-webfont.woff') format('woff');
+	font-weight: bold;
+	font-style: normal;
+
+}
+
+@font-face {
+	font-family: 'Bookmania';
+	src: url('bookmania_regular_italic-webfont.woff2') format('woff2'),
+		 url('bookmania_regular_italic-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+
+}
+
+@font-face {
+	font-family: 'Bookmania';
+	src: url('bookmania_regular-webfont.woff2') format('woff2'),
+		 url('bookmania_regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
