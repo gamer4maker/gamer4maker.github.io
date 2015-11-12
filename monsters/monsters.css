@@ -9,6 +9,11 @@ body {
 	font-family: Bookmania;
 }
 
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
 #header {
 	height: 70px;
 	float: top;
@@ -16,7 +21,12 @@ body {
 }
 
 #footer {
+	position: absolute;
+	bottom: 0;
 	height: 70px;
+	left: 0;
+	text-align: center;
+	width: 100%;
 	background: #aa2b03;
 }
 
@@ -35,7 +45,9 @@ body {
 }
 
 #content {
-	margin: 20px;
+	margin: 20px 20px 0 20px;
+	padding-bottom:75px;
+	padding-right: 450px;
 }
 
 h1, h2 {
@@ -56,3 +68,120 @@ h1, h2 {
 li {
 	padding-left: 10px;
 }
+
+/* STAT BLOCK */
+
+#stat-block {
+	width: 424px;
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	position: absolute;
+	right: 30px;
+	top: 70px;
+	padding-bottom: 30px;
+}
+
+svg {
+	fill: #922610;
+	stroke: #922610;
+}
+
+th {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+table {
+	position: relative;
+	right: 10px;
+}
+
+/*#stat-block h1 {
+	font-family: 'Lora', 'Calisto MT', 'Bookman Old Style', Bookman,
+	'Goudy Old Style', Garamond, 'Hoefler Text',
+	'Bitstream Charter', Georgia, serif;
+	color: #7A200D;
+	font-weight: 700;
+	margin-top: -6px;
+	margin-bottom: -2px;
+	font-size: 25px;
+	letter-spacing: 1px;
+	font-variant: small-caps;
+}
+
+#stat-block h2 {
+	font-weight: normal;
+	font-style: italic;
+	font-size: 12px;
+	margin: 0;
+}
+
+#stat-block host {
+color: #7A200D;
+}
+
+#stat-block table {
+width: 100%;
+border: 0px;
+border-collapse: collapse;
+}
+
+#stat-block th, #stat-block td {
+width: 50px;
+text-align: center;
+}
+
+#stat-block #action h4 {
+display: inline;
+font-weight: bold;
+font-style: italic;
+}
+
+#stat-block #action  p {
+display: inline;
+}
+
+#stat-block p {
+margin-top: 0.3em;
+margin-bottom: 0.9em;
+}
+
+#stat-block #red {
+color: #7A200D;
+}
+
+#content-wrap {
+-webkit-column-count: 1;
+-webkit-column-gap: 40px;
+font-family: 'Noto Sans', 'Myriad Pro', Scala Sans, Helvetica, Arial,
+sans-serif;
+font-size: 13px;
+display: block;
+background: #FDF1DC;
+padding: 0.6em;
+border: 1px #DDD solid;
+box-shadow: 0 0 1.5em #867453;
+z-index: 0;
+margin-left: 2px;
+margin-right: 2px;
+}
+#statblock h3 {
+border-bottom: 1px solid #7A200D;
+color: #7A200D;
+font-size: 18px;
+font-variant: small-caps;
+font-weight: normal;
+letter-spacing: 1px;
+margin: 0;
+}
+#stat-block property-block:last-child /deep/ p {
+margin-bottom: 0;
+}
+.bar {
+height: 5px;
+background: #E69A28;
+border: 1px solid #000;
+position: relative;
+z-index: 1;
+}*/
