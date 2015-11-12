@@ -4,7 +4,7 @@ html,
 body {
 	margin:0;
 	padding:0;
-	height:100%;
+	min-height:100%;
 	background: #fff9ef;
 	font-family: Bookmania;
 }
@@ -46,7 +46,7 @@ body {
 
 #content {
 	margin: 20px 20px 0 20px;
-	padding-bottom:75px;
+	padding-bottom:20px;
 }
 
 #creature {
@@ -70,6 +70,12 @@ h1, h2 {
 
 li {
 	padding-left: 10px;
+}
+
+#image {
+	padding-top: 50px;
+	max-width: 100%;
+    height: auto;
 }
 
 /* STAT BLOCK */
