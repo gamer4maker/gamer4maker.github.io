@@ -57,6 +57,15 @@ h1, h2 {
 	font-family: 'Mrs Eaves SC', sans;
 }
 
+#creature h1, h2 {
+	margin: 0;
+}
+
+#creature h2 {
+	font-size: 1.5em;
+	color: SlateGray;
+}
+
 #navigationbar {
 	font-family: 'Mrs Eaves SC', sans;
 	font-size: 1.2em;
