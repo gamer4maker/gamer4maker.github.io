@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1487951461,
+	"version": 1488235666,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -16,9 +16,12 @@
 		"images/blip-sheet0.png",
 		"images/radarframe-sheet0.png",
 		"images/tiledbackground2.png",
+		"images/shield-sheet0.png",
 		"media/depthchargeshort.m4a",
 		"media/depthchargeshort.ogg",
 		"media/laserblast.ogg",
+		"media/explo5a.m4a",
+		"media/explo5a.ogg",
 		"icon-16.png",
 		"icon-32.png",
 		"icon-114.png",
